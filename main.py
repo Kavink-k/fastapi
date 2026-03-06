@@ -1,2 +1,7 @@
+from fastapi import FastAPI 
+
+app=FastAPI()
+
 def greet():
-    print("This is my first console")
+    return "This is my first console"
+
