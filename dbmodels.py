@@ -11,6 +11,6 @@ class Product(Base):
     name=Column(String)
     desc=Column(String)
     price=Column(Float)
-    quantity=Column(Integer)
+    quantity=Column(Integer) 
 
  

@@ -58,6 +58,7 @@ def init_db():
             db.add(dbmodels.Product(**product.model_dump()))
     db.commit()
 
+
 init_db()
 
 # get all routes
