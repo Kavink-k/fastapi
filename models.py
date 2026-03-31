@@ -7,3 +7,7 @@ class Product(BaseModel):
     quantity:int
 
  
+
+class User(BaseModel):
+    username:str
+    password:str

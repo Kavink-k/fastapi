@@ -14,3 +14,10 @@ class Product(Base):
     quantity=Column(Integer) 
 
  
+
+class Userdb(Base):
+    __tablename__="usertable"
+
+    id=Column(Integer,primary_key=True,index=True)
+    username=Column(String,unique=True)
+    password=Column(String)
