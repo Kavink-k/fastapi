@@ -32,7 +32,7 @@ def create_token(username:str):
     token = jwt.encode(payload,settings.SECRET_KEY,settings.ALGORITHM)
     return token
  
-
+ 
 
 
 @router.post("/register")
